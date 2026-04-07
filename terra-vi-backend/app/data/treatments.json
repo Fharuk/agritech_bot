@@ -1,0 +1,849 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "crops_covered": [
+      "tomato",
+      "maize"
+    ],
+    "cassava_status": "coming_soon",
+    "disclaimer": "All chemical dosages sourced from IITA TAAT Compacts, NAFDAC-registered product guides, and Nigerian Federal Ministry of Agriculture extension manuals.",
+    "low_confidence_response": "The image is unclear or the symptoms are not distinct enough for a reliable diagnosis. Please retake the photo in good natural light, focusing closely on the most affected leaf. If symptoms persist, contact your nearest agricultural extension officer."
+  },
+  "tomato_early_blight": {
+    "id": "tomato_early_blight",
+    "crop": "tomato",
+    "disease_name": "Early Blight",
+    "local_name": "Toa toa / Madoa ya mapema",
+    "pathogen": "Alternaria solani",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Dark brown circular spots with concentric bullseye rings on leaves",
+      "Yellow halo surrounding each spot",
+      "Spots start on oldest lower leaves and progress upward",
+      "Spots 5–15mm diameter",
+      "Infected leaves turn yellow-brown and drop prematurely",
+      "Stem lesions are oval-shaped with same concentric ring pattern"
+    ],
+    "severity": {
+      "mild": "Few spots on lower leaves",
+      "moderate": "Multiple leaves affected; defoliation beginning",
+      "severe": "Most foliage defoliated; stem and fruit lesions present"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy infected leaves — do not compost.",
+      "step_2": "Apply copper sulphate Bordeaux mixture (1%) every 7–10 days.",
+      "step_3": "Improve spacing to 50cm between plants, 75cm between rows.",
+      "step_4": "Mulch around plants to prevent soil splash.",
+      "step_5": "Avoid overhead irrigation; water at base in the morning.",
+      "source": "IITA Tomato IPM Field Guide, TAAT Vegetable Compact 2022"
+    },
+    "chemical_treatment": {
+      "product_name": "Mancozeb 80% WP or Chlorothalonil 75% WP",
+      "common_brand_in_nigeria": "Dithane M-45, Funguran, Daconil",
+      "dosage": "Mancozeb: 2g per litre. Chlorothalonil: 2.5g per litre.",
+      "frequency": "Every 7–14 days from first symptom. Stop 7 days before harvest.",
+      "phe_warning": "Wear gloves and nose mask. Observe 7-day PHI for Mancozeb, 14 days for Chlorothalonil.",
+      "source": "NAFDAC 2023, IITA Recommendation"
+    },
+    "prevention": [
+      "Use certified disease-free seeds or resistant varieties (e.g., Tropimech, UC-82)",
+      "Practice 2–3 year crop rotation",
+      "Remove plant debris after harvest",
+      "Apply preventive copper spray at transplanting"
+    ],
+    "when_to_seek_extension_officer": "If more than 30% of crop is severely affected after 2 weeks of treatment, contact your extension officer."
+  },
+  "tomato_late_blight": {
+    "id": "tomato_late_blight",
+    "crop": "tomato",
+    "disease_name": "Late Blight",
+    "local_name": "Madoa ya marehemu",
+    "pathogen": "Phytophthora infestans",
+    "type": "oomycete",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Large irregular water-soaked grey-green lesions that quickly turn brown-black",
+      "White fluffy mould on underside of leaves in humid conditions",
+      "Spreads extremely fast — whole leaf destroyed in 2–3 days",
+      "Dark brown lesions on stems with white mould",
+      "Fruit lesions are firm, brown, greasy",
+      "Affected tissue smells foul"
+    ],
+    "severity": {
+      "mild": "Few water-soaked spots on one or two leaves",
+      "moderate": "Multiple plants affected; stems showing lesions",
+      "severe": "Entire field collapsing; irreversible crop loss"
+    },
+    "organic_treatment": {
+      "step_1": "URGENT: Remove and burn all infected plants immediately — late blight spreads in days.",
+      "step_2": "Apply copper Bordeaux mixture every 5–7 days.",
+      "step_3": "Improve drainage; avoid standing water.",
+      "step_4": "Switch to drip or furrow irrigation — avoid wetting foliage.",
+      "step_5": "Destroy volunteer tomato and potato plants nearby.",
+      "source": "IITA Tomato Disease Management Manual, FAO Plant Production Paper"
+    },
+    "chemical_treatment": {
+      "product_name": "Metalaxyl + Mancozeb (Ridomil Gold) or Cymoxanil + Mancozeb",
+      "common_brand_in_nigeria": "Ridomil Gold MZ 68 WP, Curzate M8",
+      "dosage": "Ridomil Gold MZ: 2.5g per litre. Curzate M8: 3g per litre.",
+      "frequency": "Every 5–7 days during active infection.",
+      "phe_warning": "Full protective gear required. Observe 7-day PHI. Do not use Metalaxyl more than 3 times per season.",
+      "source": "NAFDAC 2023, IITA Late Blight Management Protocol"
+    },
+    "prevention": [
+      "Plant resistant varieties: Cal-J, Fla-7775",
+      "Avoid planting near potato fields",
+      "Begin preventive sprays before rainy season"
+    ],
+    "when_to_seek_extension_officer": "Late blight is a crop emergency. If you see rapid brown-black spread and foul smell, contact your extension officer IMMEDIATELY."
+  },
+  "tomato_leaf_miner": {
+    "id": "tomato_leaf_miner",
+    "crop": "tomato",
+    "disease_name": "Tomato Leaf Miner (Tuta absoluta)",
+    "local_name": "Konokono wa tomato",
+    "pathogen": "Tuta absoluta (Lepidoptera)",
+    "type": "pest",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Serpentine white mines (winding galleries) inside leaves",
+      "Blotchy silvery patches where larvae ate leaf mesophyll",
+      "Small holes in leaves and fruit",
+      "Frass visible inside mines when held to light",
+      "Curled or distorted young terminal leaves"
+    ],
+    "severity": {
+      "mild": "Few mines on lower leaves",
+      "moderate": "Multiple leaves and some fruit damaged",
+      "severe": "Heavy defoliation; extensive fruit damage with secondary rotting"
+    },
+    "organic_treatment": {
+      "step_1": "Install yellow sticky traps (2 per 200m²).",
+      "step_2": "Remove and destroy severely mined leaves.",
+      "step_3": "Apply Bacillus thuringiensis (Bt) spray every 5–7 days.",
+      "step_4": "Apply neem extract (Azadirachtin 0.03%) every 5 days.",
+      "step_5": "Install pheromone traps for adult males.",
+      "source": "IITA Tuta absoluta West Africa Guide, FAO IPM Bulletin 2021"
+    },
+    "chemical_treatment": {
+      "product_name": "Spinosad 48% SC or Emamectin Benzoate 5% SG",
+      "common_brand_in_nigeria": "Tracer (Spinosad); Proclaim (Emamectin)",
+      "dosage": "Spinosad: 0.3ml per litre. Emamectin: 0.2g per litre.",
+      "frequency": "Every 7 days, rotating chemical groups. Max 3 applications per group per season.",
+      "phe_warning": "Spinosad: 1-day PHI. Emamectin: 3 days. Highly toxic to bees — do NOT spray during flowering.",
+      "source": "NAFDAC 2023, IITA Tuta absoluta Chemical Protocol"
+    },
+    "prevention": [
+      "Use 0.8mm mesh netting over nursery seedbeds",
+      "Destroy crop residues after harvest",
+      "Rotate with non-solanaceous crops"
+    ],
+    "when_to_seek_extension_officer": "If more than 50% of fruits are damaged or infestation persists after 3 weeks, contact your extension officer."
+  },
+  "tomato_leaf_mold": {
+    "id": "tomato_leaf_mold",
+    "crop": "tomato",
+    "disease_name": "Leaf Mold",
+    "local_name": "Ukungu wa majani ya tomato",
+    "pathogen": "Passalora fulva",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Pale greenish-yellow spots on upper leaf surface",
+      "Olive-green to grey-brown velvety mould on underside of leaf",
+      "Leaves curl inward and turn yellow",
+      "Primarily affects upper canopy"
+    ],
+    "severity": {
+      "mild": "Few yellow spots on upper leaves",
+      "moderate": "Multiple leaves affected",
+      "severe": "Entire upper canopy defoliated"
+    },
+    "organic_treatment": {
+      "step_1": "Prune lower leaves to increase airflow.",
+      "step_2": "Reduce humidity — avoid overhead irrigation.",
+      "step_3": "Apply copper Bordeaux mixture every 7–10 days.",
+      "step_4": "Remove and destroy infected leaves.",
+      "source": "IITA Tomato IPM Manual"
+    },
+    "chemical_treatment": {
+      "product_name": "Azoxystrobin 25% SC or Chlorothalonil 75% WP",
+      "common_brand_in_nigeria": "Amistar; Daconil",
+      "dosage": "Azoxystrobin: 1ml per litre. Chlorothalonil: 2.5g per litre.",
+      "frequency": "Every 7–10 days from first symptom.",
+      "phe_warning": "Wear gloves and mask. 3-day PHI for Azoxystrobin, 14 days for Chlorothalonil.",
+      "source": "NAFDAC 2023, IITA Fungicide Recommendations"
+    },
+    "prevention": [
+      "Plant resistant varieties where available",
+      "Ensure wide plant spacing",
+      "Avoid excessive nitrogen"
+    ],
+    "when_to_seek_extension_officer": "If symptoms persist after 2 weeks of treatment or more than half the canopy is affected."
+  },
+  "tomato_bacterial_spot": {
+    "id": "tomato_bacterial_spot",
+    "crop": "tomato",
+    "disease_name": "Bacterial Spot",
+    "local_name": "Madoa ya bacteria",
+    "pathogen": "Xanthomonas vesicatoria",
+    "type": "bacterial",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Small water-soaked circular spots (2–3mm) turning dark brown with yellow halo",
+      "Spots have angular edges limited by leaf veins",
+      "Spots coalesce causing large necrotic areas",
+      "Small raised scabby lesions on fruit",
+      "Worst in warm, rainy, or humid conditions"
+    ],
+    "severity": {
+      "mild": "Few small spots on lower leaves",
+      "moderate": "Multiple leaves affected; some fruit scabbing",
+      "severe": "Severe defoliation; extensive fruit damage"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy infected plant material.",
+      "step_2": "Apply copper hydroxide spray every 5–7 days in wet weather.",
+      "step_3": "Avoid overhead irrigation.",
+      "step_4": "Disinfect tools with 10% bleach between plants.",
+      "source": "IITA Tomato Bacterial Disease Manual"
+    },
+    "chemical_treatment": {
+      "product_name": "Copper Hydroxide 77% WP or Copper Oxychloride 50% WP",
+      "common_brand_in_nigeria": "Kocide 2000, Nordox, Funguran",
+      "dosage": "Copper Hydroxide: 2.5g per litre. Copper Oxychloride: 3g per litre.",
+      "frequency": "Every 5–7 days during wet season.",
+      "phe_warning": "Wear gloves and mask. 1-day PHI.",
+      "source": "NAFDAC 2023, IITA Bactericide Protocol"
+    },
+    "prevention": [
+      "Use certified pathogen-free seeds",
+      "Treat seeds with hot water (50°C, 25 min) before planting",
+      "Do not save seeds from infected fruit"
+    ],
+    "when_to_seek_extension_officer": "Bacterial spot is hard to distinguish from other bacterial diseases. If unsure or disease spreading rapidly, contact extension officer."
+  },
+  "tomato_septoria_leaf_spot": {
+    "id": "tomato_septoria_leaf_spot",
+    "crop": "tomato",
+    "disease_name": "Septoria Leaf Spot",
+    "local_name": "Doa doa tele",
+    "pathogen": "Septoria lycopersici",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Numerous small (1–3mm) circular spots with dark borders and tan/white centres",
+      "Tiny black dots visible in spot centres (pycnidia)",
+      "Starts on oldest lower leaves — very high spot density",
+      "Heavy spotting causes yellowing and leaf drop"
+    ],
+    "severity": {
+      "mild": "Few spots on lower leaves only",
+      "moderate": "Lower half severely spotted and defoliating",
+      "severe": "Entire plant defoliating rapidly"
+    },
+    "organic_treatment": {
+      "step_1": "Remove infected lower leaves and destroy.",
+      "step_2": "Apply copper Bordeaux mixture every 7–10 days.",
+      "step_3": "Mulch around plants to prevent soil splash.",
+      "step_4": "Ensure good plant spacing.",
+      "source": "IITA Tomato Disease Control Manual"
+    },
+    "chemical_treatment": {
+      "product_name": "Mancozeb 80% WP or Azoxystrobin 25% SC",
+      "common_brand_in_nigeria": "Dithane M-45; Amistar",
+      "dosage": "Mancozeb: 2g per litre. Azoxystrobin: 1ml per litre.",
+      "frequency": "Every 7–10 days from first sign.",
+      "phe_warning": "Wear gloves and mask. 7-day PHI for Mancozeb, 3 days for Azoxystrobin.",
+      "source": "NAFDAC 2023"
+    },
+    "prevention": [
+      "Rotate crops — no tomato in same bed for 2+ years",
+      "Use drip irrigation",
+      "Remove plant debris after harvest"
+    ],
+    "when_to_seek_extension_officer": "If defoliation progresses faster than treatment can control, or more than 75% of foliage is lost."
+  },
+  "tomato_target_spot": {
+    "id": "tomato_target_spot",
+    "crop": "tomato",
+    "disease_name": "Target Spot",
+    "local_name": "Doa la shabaha",
+    "pathogen": "Corynespora cassiicola",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Brown circular spots with concentric rings (bullseye) — larger than early blight (up to 25mm)",
+      "Irregular dark brown edges with lighter brown centres",
+      "Yellow halo around spots",
+      "Sunken dark circular lesions with rings on fruit"
+    ],
+    "severity": {
+      "mild": "Few spots on lower or mid-plant leaves",
+      "moderate": "Multiple leaves and some fruit affected",
+      "severe": "Extensive defoliation; major fruit lesions"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy infected leaves and fruit.",
+      "step_2": "Apply copper spray every 7–10 days.",
+      "step_3": "Improve airflow — prune and correct spacing.",
+      "step_4": "Avoid wetting foliage.",
+      "source": "IITA Tomato Disease Manual"
+    },
+    "chemical_treatment": {
+      "product_name": "Azoxystrobin 25% SC or Difenoconazole 25% EC",
+      "common_brand_in_nigeria": "Amistar; Score",
+      "dosage": "Azoxystrobin: 1ml per litre. Difenoconazole: 0.5ml per litre.",
+      "frequency": "Every 7–14 days. Rotate chemical groups.",
+      "phe_warning": "Wear gloves and mask. 3-day PHI for Azoxystrobin.",
+      "source": "NAFDAC 2023"
+    },
+    "prevention": [
+      "Use disease-resistant varieties",
+      "3-year crop rotation",
+      "Remove all crop debris after harvest"
+    ],
+    "when_to_seek_extension_officer": "Target spot is easily confused with early blight. If uncertain, consult your extension officer."
+  },
+  "tomato_yellow_leaf_curl_virus": {
+    "id": "tomato_yellow_leaf_curl_virus",
+    "crop": "tomato",
+    "disease_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "local_name": "Kwiringo kwa majani ya tomato",
+    "pathogen": "Tomato yellow leaf curl virus (Begomovirus) — spread by whitefly Bemisia tabaci",
+    "type": "viral",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Leaves curl upward and inward especially young leaves",
+      "Leaves turn yellow at margins and between veins",
+      "Leaves become small, thick, and leathery",
+      "Stunted plant growth",
+      "Flowers drop without setting fruit",
+      "Tiny white whiteflies on underside of leaves"
+    ],
+    "severity": {
+      "mild": "Few leaves curling; plant still flowering",
+      "moderate": "Most new growth affected; flower drop beginning",
+      "severe": "Entire plant stunted; no fruit production"
+    },
+    "critical_note": "TYLCV has NO chemical cure. Once infected, the plant cannot be cured. Remove infected plants and control the whitefly vector.",
+    "organic_treatment": {
+      "step_1": "IMMEDIATELY remove and destroy all infected plants — burn, do not compost.",
+      "step_2": "Use yellow sticky traps to monitor and trap adult whiteflies.",
+      "step_3": "Apply neem oil (Azadirachtin 0.03%) every 5–7 days.",
+      "step_4": "Use reflective silver mulch to disorient whitefly adults.",
+      "step_5": "Plant trap crops (nasturtium) around the field.",
+      "source": "IITA TYLCV Management Guide, FAO Whitefly-Transmitted Viruses Bulletin 2022"
+    },
+    "chemical_treatment": {
+      "product_name": "Imidacloprid 70% WG or Thiamethoxam 25% WG (for whitefly control)",
+      "common_brand_in_nigeria": "Confidor (Imidacloprid); Actara (Thiamethoxam)",
+      "dosage": "Imidacloprid: 0.5g per litre for foliar OR soil drench at transplanting.",
+      "frequency": "Every 7–10 days for foliar. Rotate with non-neonicotinoid insecticides.",
+      "phe_warning": "Observe 7-day PHI. Harmful to bees — do NOT apply during flowering.",
+      "source": "NAFDAC 2023, IITA Whitefly Control Protocol"
+    },
+    "prevention": [
+      "Plant TYLCV-resistant varieties: TY Zorro F1, Tyler F1 (TY-resistant hybrids)",
+      "Use certified disease-free transplants — inspect seedlings before planting",
+      "Install 50-mesh insect-proof netting over seedbeds",
+      "Rogue infected plants within first 3–4 weeks",
+      "Maintain 50m buffer zone between new and older infected fields"
+    ],
+    "when_to_seek_extension_officer": "If more than 20% of plants are infected or whitefly populations not responding to treatment, contact extension officer immediately."
+  },
+  "tomato_spider_mites": {
+    "id": "tomato_spider_mites",
+    "crop": "tomato",
+    "disease_name": "Spider Mites (Two-Spotted)",
+    "local_name": "Utitiri wa tomato",
+    "pathogen": "Tetranychus urticae",
+    "type": "pest",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Tiny yellow/white stippling (pin-prick dots) on upper leaf surface",
+      "Leaves turn bronze, silvery, or yellow with speckled appearance",
+      "Fine silken webbing on underside of leaves and between leaves",
+      "Tiny oval mites (0.5mm) visible on underside — red, yellow or green"
+    ],
+    "severity": {
+      "mild": "Light stippling on a few leaves",
+      "moderate": "Extensive stippling and bronzing; webbing visible",
+      "severe": "Heavy webbing covering plant; mass leaf drop"
+    },
+    "organic_treatment": {
+      "step_1": "Spray plants forcefully with water to knock mites off — do this in the morning.",
+      "step_2": "Apply neem oil (1–2%) spray every 5 days.",
+      "step_3": "Apply insecticidal soap every 5–7 days.",
+      "step_4": "Maintain adequate soil moisture — mites thrive in drought.",
+      "source": "IITA IPM for Tomato Pests"
+    },
+    "chemical_treatment": {
+      "product_name": "Abamectin 1.8% EC or Spiromesifen 240 SC",
+      "common_brand_in_nigeria": "Agrimek / Vertimec (Abamectin); Oberon (Spiromesifen)",
+      "dosage": "Abamectin: 0.5ml per litre. Spiromesifen: 0.75ml per litre.",
+      "frequency": "Every 7–10 days. ROTATE acaricide groups — mites develop resistance very fast.",
+      "phe_warning": "Wear gloves, mask, eye protection. Abamectin: 3-day PHI. Spiromesifen: 7 days.",
+      "source": "NAFDAC 2023, IITA Acaricide Resistance Management"
+    },
+    "prevention": [
+      "Avoid water stress — irrigate adequately in dry season",
+      "Monitor weekly — mite populations double every 5–7 days",
+      "Keep field borders free of weeds"
+    ],
+    "when_to_seek_extension_officer": "If mite populations not suppressed after 2 weeks, resistance may have developed. Consult extension officer for alternative acaricides."
+  },
+  "tomato_healthy": {
+    "id": "tomato_healthy",
+    "crop": "tomato",
+    "disease_name": "Healthy Tomato Plant",
+    "local_name": "Tomato nzuri",
+    "pathogen": "None",
+    "type": "healthy",
+    "vision_confidence_threshold": 0.7,
+    "visual_markers": [
+      "Deep green leaves with no spots, lesions, or yellowing",
+      "Smooth leaf texture with no distortion, curling, or mines",
+      "No insects, webbing, frass, or mould visible"
+    ],
+    "severity": {
+      "mild": "N/A",
+      "moderate": "N/A",
+      "severe": "N/A"
+    },
+    "organic_treatment": {
+      "step_1": "Your plant appears healthy — continue current management.",
+      "step_2": "Monitor weekly for early signs of disease or pests.",
+      "step_3": "Apply preventive copper spray at start of rainy season.",
+      "source": "IITA Tomato Production Guide"
+    },
+    "chemical_treatment": {
+      "product_name": "No treatment needed",
+      "common_brand_in_nigeria": "N/A",
+      "dosage": "N/A",
+      "frequency": "N/A",
+      "phe_warning": "N/A",
+      "source": "N/A"
+    },
+    "prevention": [
+      "Continue weekly crop monitoring",
+      "Maintain balanced NPK fertilisation",
+      "Keep field weeds under control"
+    ],
+    "when_to_seek_extension_officer": "Your tomato appears healthy. Contact extension officer for routine agronomic advice."
+  },
+  "maize_northern_leaf_blight": {
+    "id": "maize_northern_leaf_blight",
+    "crop": "maize",
+    "disease_name": "Northern Corn Leaf Blight (NCLB)",
+    "local_name": "Mashudu a Muhindi",
+    "pathogen": "Exserohilum turcicum",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Long elliptical (cigar-shaped) lesions 2.5–15cm on leaves",
+      "Lesions grey-green at first, turning tan/straw-coloured",
+      "Distinct pale centres with darker wavy edges",
+      "Dark olive-green to black spores in humid conditions",
+      "Starts on lower leaves and progresses upward"
+    ],
+    "severity": {
+      "mild": "Few lesions on lower leaves",
+      "moderate": "Multiple leaves including mid-canopy affected",
+      "severe": "Lesions on upper leaves; more than 50% leaf area destroyed"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy heavily infected lower leaves early — do not compost.",
+      "step_2": "Ensure adequate spacing (75cm rows, 25–30cm within row) to maximise airflow.",
+      "step_3": "Avoid over-application of nitrogen fertiliser.",
+      "step_4": "Practice crop rotation — no maize in same plot more than once every 2 seasons.",
+      "source": "IITA TAAT Maize Compact 2022, NRCRI Umudike IPM Field Guide"
+    },
+    "chemical_treatment": {
+      "product_name": "Mancozeb 80% WP or Propiconazole 25% EC",
+      "common_brand_in_nigeria": "Dithane M-45; Tilt (Propiconazole)",
+      "dosage": "Mancozeb: 2.5g per litre. Propiconazole: 0.5ml per litre.",
+      "frequency": "Every 14 days from first detection.",
+      "phe_warning": "Wear gloves and mask. 14-day PHI for Propiconazole.",
+      "source": "IITA Maize Disease Control, NAFDAC 2023"
+    },
+    "prevention": [
+      "Plant resistant varieties: SAMMAZ 15, SAMMAZ 23, EVDT 99",
+      "2-year crop rotation",
+      "Balanced NPK fertilisation",
+      "Weed control"
+    ],
+    "when_to_seek_extension_officer": "If more than 50% leaf area above the ear is affected before grain fill, contact extension officer to assess field viability."
+  },
+  "maize_fall_armyworm": {
+    "id": "maize_fall_armyworm",
+    "crop": "maize",
+    "disease_name": "Fall Armyworm (FAW)",
+    "local_name": "Kokoro oka / Soja Worm",
+    "pathogen": "Spodoptera frugiperda (Lepidoptera)",
+    "type": "pest",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Ragged irregular feeding holes in leaves — young caterpillars skeletonise leaves",
+      "Wet sawdust-like frass in the leaf whorl",
+      "Caterpillars (up to 4cm) with inverted Y marking on head",
+      "Whorl may appear wilted and dead with frass inside"
+    ],
+    "severity": {
+      "mild": "Few plants with leaf holes and frass",
+      "moderate": "10–25% of plants with whorl damage",
+      "severe": "More than 25% severely damaged; whorl destruction; cob penetration"
+    },
+    "organic_treatment": {
+      "step_1": "Apply fine sand or ash directly into the whorl to kill young larvae.",
+      "step_2": "Apply Bacillus thuringiensis var. kurstaki (Btk) into whorl every 5–7 days.",
+      "step_3": "Hand-pick and destroy large caterpillars early morning.",
+      "step_4": "Apply neem seed kernel extract (50g per litre, filtered) into the whorl.",
+      "step_5": "Intercrop with legumes to attract natural enemies.",
+      "source": "IITA Fall Armyworm Nigeria Management Guide, FAO FAW Africa Programme 2021"
+    },
+    "chemical_treatment": {
+      "option_1": {
+        "product_name": "Emamectin Benzoate 5% SG",
+        "common_brand_in_nigeria": "Proclaim, Affirm",
+        "dosage": "0.2g per litre — apply directly into whorl",
+        "frequency": "Every 7–10 days. Maximum 3 applications per season.",
+        "phe_warning": "Observe 3-day PHI. Wear gloves and mask."
+      },
+      "option_2": {
+        "product_name": "Chlorpyrifos 48% EC or Lambda-cyhalothrin 2.5% EC",
+        "common_brand_in_nigeria": "Dursban; Karate",
+        "dosage": "Chlorpyrifos: 2ml per litre. Lambda-cyhalothrin: 1ml per litre.",
+        "frequency": "Every 7 days during severe infestation only. Rotate with Emamectin.",
+        "phe_warning": "14-day PHI for Chlorpyrifos. 7 days for Lambda-cyhalothrin. Highly toxic to bees. Full PPE required."
+      },
+      "note": "Apply into the whorl, not on the leaf surface. Treat when larvae are young — ineffective against large caterpillars.",
+      "source": "NAFDAC 2023, IITA FAW Chemical Control Recommendations"
+    },
+    "prevention": [
+      "Plant early to escape peak FAW pressure",
+      "Scout fields 2–3 times per week from emergence",
+      "Destroy crop residues after harvest"
+    ],
+    "when_to_seek_extension_officer": "If more than 20% of plants severely damaged, or insecticide treatment not working within 10 days, contact extension officer. FAW develops resistance quickly."
+  },
+  "cassava_mosaic_disease": {
+    "id": "cassava_mosaic_disease",
+    "crop": "cassava",
+    "disease_name": "Cassava Mosaic Disease (CMD)",
+    "local_name": "Aran Kasava / Arun Igi Ege",
+    "pathogen": "African cassava mosaic virus (ACMV) — transmitted by whitefly Bemisia tabaci",
+    "type": "viral",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Mosaic pattern of yellow and green patches on leaves",
+      "Leaves distorted, crinkled, or reduced in size",
+      "Leaflets may be missing sections",
+      "Stunted plant growth",
+      "White whiteflies on underside of young leaves"
+    ],
+    "severity": {
+      "mild": "Light mosaic; growth not severely affected",
+      "moderate": "Clear mosaic; some leaf distortion; yield reduced 20–40%",
+      "severe": "Severe mosaic and stunting; yield loss greater than 80%"
+    },
+    "critical_note": "CMD has NO chemical cure. Remove and destroy infected plants immediately. Plant only CMD-resistant varieties.",
+    "organic_treatment": {
+      "step_1": "Remove by roots and destroy all infected plants — burn or bury deeply.",
+      "step_2": "Use yellow sticky traps to capture whitefly adults.",
+      "step_3": "Apply neem oil (Azadirachtin 0.03%) every 7 days.",
+      "step_4": "Plant only CMD-resistant varieties.",
+      "step_5": "Source clean planting stems from disease-free stock.",
+      "source": "IITA CMD Management Guide, NRCRI Umudike Cassava Disease Bulletin 2022"
+    },
+    "chemical_treatment": {
+      "product_name": "Imidacloprid 70% WG or Thiamethoxam 25% WG (for whitefly vector control only)",
+      "common_brand_in_nigeria": "Confidor; Actara",
+      "dosage": "Imidacloprid: 0.5g per litre. Thiamethoxam: 0.3g per litre.",
+      "frequency": "Every 10–14 days on new plantings to protect from reinfection.",
+      "phe_warning": "7-day PHI. Avoid during flowering. Rotate with non-neonicotinoids.",
+      "source": "NAFDAC 2023"
+    },
+    "prevention": [
+      "ALWAYS plant certified CMD-resistant varieties: TME 419, NR 8082, IITA TMS 30572, UMUCASS 36",
+      "Source planting stems from certified disease-free nurseries only",
+      "Rogue infected plants early before whitefly populations build up",
+      "Control weeds — they serve as alternative whitefly hosts"
+    ],
+    "resistant_varieties": {
+      "recommended": "TME 419, NR 8082, IITA TMS 30572 — CMD-resistant and high-yielding.",
+      "where_to_obtain": "Contact your State ADP or nearest IITA office for certified planting material."
+    },
+    "when_to_seek_extension_officer": "If more than 10% of cassava shows CMD symptoms, contact extension officer immediately — CMD spreads rapidly."
+  },
+  "cassava_bacterial_blight": {
+    "id": "cassava_bacterial_blight",
+    "crop": "cassava",
+    "disease_name": "Cassava Bacterial Blight (CBB)",
+    "local_name": "Arun Kokoro Cassava",
+    "pathogen": "Xanthomonas axonopodis pv. manihotis",
+    "type": "bacterial",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Angular water-soaked leaf spots turning brown — limited by leaf veins",
+      "Wilting of leaves at shoot tips (shepherd's crook wilting)",
+      "Yellow halo around angular leaf spots",
+      "Gummosis — sticky yellow-brown ooze on cut stems",
+      "Elongated dark stem cankers",
+      "Brown vascular discolouration when stem cut crosswise"
+    ],
+    "severity": {
+      "mild": "Few angular spots; no wilting",
+      "moderate": "Extensive spotting; some tip wilting; stem cankers",
+      "severe": "Widespread wilting; stem die-back; gummosis"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy all infected plant parts — burn, do not compost.",
+      "step_2": "Disinfect cutting tools in 10% bleach solution between plants.",
+      "step_3": "Apply copper oxychloride 50% WP every 7–10 days.",
+      "step_4": "Do not plant in waterlogged soils.",
+      "step_5": "Use only healthy certified stems for replanting.",
+      "source": "IITA Cassava Disease Management Guide, NRCRI CBB Control Bulletin"
+    },
+    "chemical_treatment": {
+      "product_name": "Copper Oxychloride 50% WP or Copper Hydroxide 77% WP",
+      "common_brand_in_nigeria": "Funguran, Nordox, Kocide",
+      "dosage": "Copper Oxychloride: 3g per litre. Copper Hydroxide: 2.5g per litre.",
+      "frequency": "Every 7–10 days during rainy season.",
+      "phe_warning": "Wear gloves and mask. 1-day PHI. Do not apply in hot sun.",
+      "source": "NAFDAC 2023"
+    },
+    "prevention": [
+      "Plant CBB-tolerant varieties",
+      "Use only certified disease-free planting material",
+      "Avoid cutting plants when wet",
+      "Practice 2-year crop rotation"
+    ],
+    "when_to_seek_extension_officer": "If wilting and stem die-back spreading rapidly or bacterial ooze is extensive, contact extension officer. Severe CBB may require field abandonment."
+  },
+  "rice_bacterial_blight": {
+    "id": "rice_bacterial_blight",
+    "crop": "rice",
+    "disease_name": "Rice Bacterial Blight",
+    "local_name": "Bact wilt / Yellowing of rice",
+    "pathogen": "Xanthomonas oryzae pv. oryzae",
+    "type": "bacterial",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Leaf margins turn pale green then yellow-white, starting from tip and edges",
+      "A wavy yellow-white band spreads down the leaf margin toward the base",
+      "Infected leaves may wilt and roll slightly",
+      "Bacterial ooze (milky droplets) visible on cut leaf edges in humid morning conditions",
+      "Entire leaf may die and turn straw-coloured in severe cases",
+      "Young seedlings show uniform yellowing and collapse (kresek phase)"
+    ],
+    "severity": {
+      "mild": "Yellow margins on a few leaves; most of canopy still green",
+      "moderate": "30-50% of leaves showing yellowing; some leaf death",
+      "severe": "Widespread leaf death; kresek phase on seedlings; significant yield loss"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy severely infected plant material — do not compost.",
+      "step_2": "Drain fields if possible — reduce standing water which spreads bacteria.",
+      "step_3": "Avoid overhead irrigation or flooding during active infection.",
+      "step_4": "Apply copper-based spray: copper oxychloride 50% WP at 30g per 15-litre sprayer every 10-14 days.",
+      "step_5": "Disinfect farming tools with 10% bleach solution between fields.",
+      "source": "IRRI Rice Knowledge Bank; IITA Rice Production Guidelines Nigeria"
+    },
+    "chemical_treatment": {
+      "product_name": "Copper oxychloride 50% WP or Streptomycin sulphate",
+      "common_brand_in_nigeria": "Cobox, Funguran (copper); Agrimycin (streptomycin)",
+      "dosage": "Copper oxychloride: 30g per 15-litre sprayer. Streptomycin: 15g per 15-litre.",
+      "frequency": "Every 10-14 days from first symptoms. Begin at tillering stage.",
+      "phe_warning": "Wear gloves and mask. Copper compounds are toxic to fish — do not spray near streams. Streptomycin: observe 7-day PHI.",
+      "source": "NAFDAC registered product class. IRRI Disease Management Guidelines."
+    },
+    "prevention": [
+      "Plant certified disease-free seeds from NASC or state ADP",
+      "Use resistant or tolerant varieties: FARO 52, FARO 57, WITA 4 (available from NCRI Badeggi)",
+      "Avoid excessive nitrogen fertiliser — lush growth is more susceptible",
+      "Do not allow water to flow from infected to healthy fields",
+      "Control leaf-cutting insects — wounds are entry points for bacteria"
+    ],
+    "when_to_seek_extension_officer": "If kresek (seedling collapse) is spreading or more than 30% of the crop is affected, contact your extension officer immediately — bacterial blight can spread rapidly in wet conditions."
+  },
+  "rice_blast": {
+    "id": "rice_blast",
+    "crop": "rice",
+    "disease_name": "Rice Blast",
+    "local_name": "Rice fungal burn / neck rot",
+    "pathogen": "Magnaporthe oryzae (Pyricularia oryzae)",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Diamond-shaped or spindle-shaped lesions with grey-white centres and brown-red borders",
+      "Lesions have a distinctive pointed shape at both ends — like an eye",
+      "Lesions can coalesce and kill entire leaves",
+      "Neck blast: dark brown to black lesion at the base of the panicle — causes entire head to die (white head)",
+      "Node blast: dark brown or black lesions at nodes — weakens stem",
+      "In humid conditions grey-green spore mass may be visible in lesion centre"
+    ],
+    "severity": {
+      "mild": "Few small lesions on lower leaves; no neck or node symptoms",
+      "moderate": "Multiple lesions on several leaves; some node involvement",
+      "severe": "Neck blast causing white heads (no grain fill); widespread leaf death"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy severely affected leaves and panicles — do not compost.",
+      "step_2": "Avoid excessive nitrogen (especially late applications) — blast thrives on lush growth.",
+      "step_3": "Reduce plant spacing to improve airflow and reduce leaf wetness periods.",
+      "step_4": "Silicon application: if silicon fertiliser is available, it strengthens leaf cell walls and reduces blast penetration.",
+      "source": "IRRI Rice Doctor; NCRI Badeggi Rice Disease Management Manual"
+    },
+    "chemical_treatment": {
+      "product_name": "Tricyclazole 75% WP or Isoprothiolane 40% EC",
+      "common_brand_in_nigeria": "Beam 75 WP (Tricyclazole); Fuji-One (Isoprothiolane)",
+      "dosage": "Tricyclazole: 8g per 15-litre sprayer. Isoprothiolane: 20ml per 15-litre.",
+      "frequency": "Apply at first sign of disease and again 10-14 days later. Critical window: before heading (panicle initiation stage).",
+      "phe_warning": "Wear gloves and mask. Observe 14-day PHI for tricyclazole. Do not mix with herbicides.",
+      "source": "NAFDAC registered product class. IRRI Blast Management Protocol."
+    },
+    "prevention": [
+      "Plant blast-resistant varieties: FARO 57, FARO 60, NERICA varieties — ask NCRI Badeggi or your ADP",
+      "Avoid planting in areas with history of blast during cool, wet, foggy weather",
+      "Do not apply heavy nitrogen doses late in the season",
+      "Time planting to avoid peak blast weather (cool nights, wet mornings)",
+      "Use balanced NPK — potassium strengthens cell walls"
+    ],
+    "when_to_seek_extension_officer": "Neck blast can destroy an entire crop within days of heading. If you see brown or black discolouration at the base of panicles, contact your extension officer immediately."
+  },
+  "rice_brown_spot": {
+    "id": "rice_brown_spot",
+    "crop": "rice",
+    "disease_name": "Rice Brown Spot",
+    "local_name": "Rice brown leaf spot",
+    "pathogen": "Bipolaris oryzae (Helminthosporium oryzae)",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.6,
+    "visual_markers": [
+      "Oval to circular spots, 1-2cm wide, dark brown with a yellow halo on leaves",
+      "Spots have dark brown margins and lighter brown centres — sometimes with grey or white centres",
+      "Heavy spotting causes leaves to turn yellow and die prematurely",
+      "Grain spots: dark brown to black oval spots on rice grains — causes discolouration and quality loss",
+      "Seedling infection causes brown spots and death at early growth stages",
+      "Most severe on nutrient-deficient plants, especially low potassium and silicon"
+    ],
+    "severity": {
+      "mild": "A few spots on lower leaves; plant vigour not significantly reduced",
+      "moderate": "Multiple leaves affected; some early leaf death; grain spots beginning",
+      "severe": "Widespread leaf death; heavily spotted grain; significant yield and quality loss"
+    },
+    "organic_treatment": {
+      "step_1": "Address soil nutrition first — brown spot is strongly associated with nutrient-deficient soils. Apply balanced NPK fertiliser.",
+      "step_2": "Potassium application is particularly important — apply muriate of potash (KCl) if deficiency is suspected.",
+      "step_3": "Remove and destroy heavily infected leaves to reduce spore load.",
+      "step_4": "Treat seeds before planting: soak seeds in hot water (52-55°C for 10-12 minutes) to reduce seed-borne inoculum.",
+      "source": "IRRI Rice Knowledge Bank; NCRI Badeggi Nigeria"
+    },
+    "chemical_treatment": {
+      "product_name": "Mancozeb 80% WP or Iprodione 50% WP",
+      "common_brand_in_nigeria": "Dithane M-45, Penncozeb (Mancozeb); Rovral (Iprodione)",
+      "dosage": "Mancozeb: 25g per 15-litre sprayer. Iprodione: 20g per 15-litre.",
+      "frequency": "Every 14 days from first symptom. Also apply as preventive seed treatment.",
+      "phe_warning": "Wear gloves and mask. Observe 7-day PHI for Mancozeb.",
+      "source": "NAFDAC registered product class. IRRI Disease Management."
+    },
+    "prevention": [
+      "Use certified, clean seeds — brown spot is seed-borne",
+      "Treat seeds before planting (hot water or seed fungicide dip)",
+      "Maintain good soil nutrition — particularly phosphorus and potassium",
+      "Avoid water stress and waterlogging — both increase susceptibility",
+      "Do not apply excessive nitrogen without matching K and P fertilisation"
+    ],
+    "when_to_seek_extension_officer": "If more than 30% of grain is spotted at harvest, quality loss will be significant. Contact your extension officer for soil testing and fertiliser recommendations."
+  },
+  "rice_tungro": {
+    "id": "rice_tungro",
+    "crop": "rice",
+    "disease_name": "Rice Tungro Disease",
+    "local_name": "Rice orange leaf / dwarf disease",
+    "pathogen": "Rice tungro bacilliform virus (RTBV) + Rice tungro spherical virus (RTSV) — transmitted by green leafhopper (Nephotettix virescens)",
+    "type": "viral",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Leaves turn orange-yellow or yellow, starting from the tip and spreading downward",
+      "Stunted plant growth — infected plants are noticeably shorter than healthy plants nearby",
+      "Tillering is severely reduced — infected plants produce very few side shoots",
+      "Leaves may show rust-coloured speckling or streaking",
+      "Interveinal chlorosis: yellowing between the leaf veins",
+      "Green leafhoppers (small, 3-4mm, bright green insects) often visible on undersides of leaves"
+    ],
+    "severity": {
+      "mild": "Yellow discolouration on a few plants; slight stunting",
+      "moderate": "Multiple plants yellowed and stunted; reduced tillering",
+      "severe": "Widespread yellowing and severe stunting; minimal or no grain production"
+    },
+    "critical_note": "Tungro has NO chemical cure. Once a plant is infected, the virus cannot be removed. Management focuses entirely on controlling the green leafhopper vector and removing infected plants to prevent spread.",
+    "organic_treatment": {
+      "step_1": "IMMEDIATELY rogue out (uproot and destroy) all visibly infected plants — burn or bury deeply. Do not leave them in or near the field.",
+      "step_2": "Control green leafhopper: place yellow sticky traps (2 per 100m²) to monitor and capture adults.",
+      "step_3": "Synchronise planting with neighbouring farmers to break the leafhopper migration cycle — staggered planting increases disease pressure.",
+      "step_4": "Remove weeds from field borders — many grasses and weeds are alternative hosts for both the virus and the leafhopper.",
+      "step_5": "Use light traps at night to mass-capture leafhopper adults during migration periods.",
+      "source": "IRRI Rice Knowledge Bank; NCRI Badeggi Tungro Management Guide"
+    },
+    "chemical_treatment": {
+      "product_name": "Imidacloprid 70% WG or Thiamethoxam 25% WG (for leafhopper vector control)",
+      "common_brand_in_nigeria": "Confidor (Imidacloprid); Actara (Thiamethoxam)",
+      "dosage": "Imidacloprid: 0.5g per litre for foliar spray OR seed treatment at 3g per kg seed.",
+      "frequency": "Seed treatment at planting gives 3-4 weeks protection. Foliar: every 10-14 days during peak leafhopper season. Rotate with non-neonicotinoid insecticides.",
+      "phe_warning": "7-day PHI. Avoid during flowering — highly toxic to bees and beneficial insects. Rotate with Buprofezin or Etofenprox to manage resistance.",
+      "source": "NAFDAC registered product class. IRRI Leafhopper Control Protocol."
+    },
+    "prevention": [
+      "Plant tungro-resistant varieties: FARO 52, WITA 4, NERICA L-19, NERICA L-41 — available from NCRI Badeggi or state ADP",
+      "Use certified disease-free seed — never plant from infected fields",
+      "Synchronise planting in your area — agree with neighbours to plant within 2 weeks of each other",
+      "Rogue infected plants within the first 3-4 weeks before leafhopper populations build",
+      "Avoid replanting into fields with tungro history without fallowing or fumigation"
+    ],
+    "when_to_seek_extension_officer": "If more than 10% of plants show tungro symptoms, or if leafhopper populations are not responding to insecticide treatment, contact your extension officer immediately. Tungro can spread to entire fields within one season."
+  },
+  "rice_healthy": {
+    "id": "rice_healthy",
+    "crop": "rice",
+    "disease_name": "Healthy Rice Plant",
+    "local_name": "Iresi ti o ni ilera",
+    "pathogen": "None",
+    "type": "healthy",
+    "vision_confidence_threshold": 0.7,
+    "visual_markers": [
+      "Upright, deep green leaves with no spots, lesions, or discolouration",
+      "Uniform plant height and vigour across the field",
+      "No visible insects, webbing, or fungal growth on leaves or stems",
+      "Clear green colour from base to tip — no yellowing, browning, or orange discolouration"
+    ],
+    "severity": {
+      "mild": "N/A",
+      "moderate": "N/A",
+      "severe": "N/A"
+    },
+    "organic_treatment": {
+      "step_1": "Your rice plant appears healthy — continue current management.",
+      "step_2": "Monitor weekly, especially at tillering and heading stages when diseases are most damaging.",
+      "step_3": "Apply preventive copper spray at tillering if blast pressure is high in your area.",
+      "source": "IRRI Rice Production Guidelines; NCRI Badeggi Nigeria"
+    },
+    "chemical_treatment": {
+      "product_name": "No treatment needed",
+      "common_brand_in_nigeria": "N/A",
+      "dosage": "N/A",
+      "frequency": "N/A",
+      "phe_warning": "N/A",
+      "source": "N/A"
+    },
+    "prevention": [
+      "Continue weekly crop monitoring — check both leaf and stem health",
+      "Maintain balanced NPK fertilisation — split applications for better uptake",
+      "Keep field borders weed-free to reduce insect pest and disease pressure",
+      "Ensure proper water management — avoid waterlogging and drought stress"
+    ],
+    "when_to_seek_extension_officer": "Your rice appears healthy. Contact your extension officer for routine agronomic advice on fertiliser timing and irrigation scheduling for your specific rice variety."
+  }
+}

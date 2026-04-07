@@ -1,0 +1,19 @@
+# Never include models in the build context — they are downloaded in Dockerfile
+models/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+# Database
+*.db
+*.db-journal
+# Env
+.env
+# Tests
+tests/
+# Git
+.git/
+.gitignore

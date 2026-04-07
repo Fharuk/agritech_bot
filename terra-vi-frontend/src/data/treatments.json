@@ -1,0 +1,392 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "project": "Terra VI",
+    "last_updated": "2025-03-19",
+    "authors": "Terra VI team",
+    "sources": [
+      "IITA Disease Control in Cassava Farms — IPM Field Guide for Extension Agents (NRCRI, Umudike, Abia State, Nigeria)",
+      "IITA TAAT Maize Compact — Fall Armyworm Control in Maize Production (propas.iita.org)",
+      "Kamara et al. (2020) — Guide to Maize Production in Northern Nigeria, IITA Ibadan",
+      "Ogbe et al. (2003) — Cassava Mosaic Disease and its Causal Agents: The Nigerian Situation, IITA Ibadan",
+      "Nigerian Federal Ministry of Agriculture and Rural Development — Crop Production Guidelines",
+      "FAO (2018) — Fall Armyworm: Impacts and Implications for Africa",
+      "Alabi et al. — Cassava Mosaic Disease field research, IITA Nigeria",
+      "Tandfonline (2022) — Effect of insecticides on FAW infestation on Maize in Nigeria",
+      "PMC (2018) — Pesticide Residues from FAW Chemical Control in Maize, Mokwa Nigeria (IITA Cotonou Station)"
+    ],
+    "disclaimer": "All chemical treatments listed are based on published Nigerian/West African extension guidance and IITA recommendations. Dosages are provided as reference ranges — farmers should follow label instructions on purchased products. This database must be reviewed and updated by a certified agronomist before commercial deployment.",
+    "confidence_gate": "Results with vision_confidence below the per-entry threshold should NOT display a treatment plan. Instead return the low_confidence_response.",
+    "low_confidence_response": "The image is unclear or the symptoms are not distinct enough for a reliable diagnosis. Please retake the photo in good natural light, focusing closely on the most affected leaf. If symptoms persist, contact your nearest agricultural extension officer.",
+    "crops_covered": ["tomato", "cassava", "maize"]
+  },
+
+  "tomato_early_blight": {
+    "id": "tomato_early_blight",
+    "crop": "tomato",
+    "disease_name": "Early blight",
+    "local_name": "Tomato leaf spot (ring pattern)",
+    "pathogen": "Alternaria solani / Alternaria tomatophila",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Dark brown circular spots with concentric rings (bullseye pattern) on leaves",
+      "Yellow halo surrounding each spot",
+      "Spots start on the lowest, oldest leaves and move upward",
+      "Spots range from 5mm to 15mm in diameter",
+      "Infected leaves turn fully brown and may fall off",
+      "Stem lesions are oval-shaped with same ring pattern"
+    ],
+    "severity": {
+      "mild": "Fewer than 5 spots per leaf; only bottom 1–2 leaves affected",
+      "moderate": "Multiple leaves affected across lower half of plant; some leaf drop",
+      "severe": "Widespread defoliation; stem lesions visible; upper canopy affected"
+    },
+    "organic_treatment": {
+      "step_1": "Immediately remove and destroy all visibly infected leaves. Do not compost them — burn or bury deeply.",
+      "step_2": "Prepare a baking soda spray: dissolve 2 tablespoons of baking soda in 1 litre of clean water. Add 1 teaspoon of liquid soap (not detergent). Spray thoroughly on both upper and lower leaf surfaces every 7 days.",
+      "step_3": "Apply a thick layer of dry mulch (straw, dry grass) around the base of each plant to prevent soil splash onto leaves during rain.",
+      "step_4": "Water only at the base of the plant, early in the morning. Never use overhead watering.",
+      "step_5": "Space plants at least 45–60cm apart to allow air to circulate between them.",
+      "source": "IITA Extension Guidance; Iowa State University Extension; Colorado State University Extension"
+    },
+    "chemical_treatment": {
+      "product_name": "Mancozeb 80% WP",
+      "common_brand_in_nigeria": "Dithane M-45, Penncozeb",
+      "active_ingredient": "Mancozeb",
+      "dosage": "25 grams per 15-litre knapsack sprayer (standard backpack)",
+      "application": "Spray thoroughly on all leaf surfaces, including undersides. Begin at first sign of disease.",
+      "frequency": "Every 7–10 days. Stop spraying at least 7 days before harvest.",
+      "availability": "Widely available at agro-allied stores across Nigeria",
+      "phe_warning": "Wear rubber gloves and a face mask during mixing and application. Keep children and animals away from the field for 24 hours after spraying.",
+      "source": "NAFDAC-registered product class. Nigerian Federal Ministry of Agriculture crop protection guidelines."
+    },
+    "prevention": [
+      "Use certified, disease-free seeds or seedlings from a trusted agro-dealer",
+      "Rotate crops — do not plant tomatoes, pepper, or potato in the same field for at least 2 seasons",
+      "Remove and burn all crop debris after harvest — do not leave dead plants in the field",
+      "Avoid working in the field when leaves are wet to prevent spreading spores on hands and tools"
+    ],
+    "when_to_seek_extension_officer": "If the disease has spread to more than half the plant or to the fruit within 5 days of starting treatment, contact your local agricultural extension officer immediately."
+  },
+
+  "tomato_late_blight": {
+    "id": "tomato_late_blight",
+    "crop": "tomato",
+    "disease_name": "Late blight",
+    "local_name": "Tomato water rot / rapid leaf death",
+    "pathogen": "Phytophthora infestans",
+    "type": "oomycete (water mould — not a true fungus)",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Irregular dark greenish-brown water-soaked blotches on leaves",
+      "White or grey fluffy growth (mycelium) visible on underside of leaf in humid conditions",
+      "Blotches spread rapidly and look oily or greasy",
+      "Affected tissue turns dark brown to black and collapses quickly",
+      "Dark firm lesions on fruit, usually starting at the top (shoulder)",
+      "Stems develop dark brown to black streaks"
+    ],
+    "severity": {
+      "mild": "1–3 lesions on lower leaves only; no stem involvement",
+      "moderate": "Multiple lesions on several leaves; some stem discolouration",
+      "severe": "Rapid collapse across the whole plant; fruit infected; white mould visible"
+    },
+    "organic_treatment": {
+      "step_1": "URGENT: Late blight spreads extremely fast. Remove and bag all heavily infected plants or branches immediately. Do not compost — seal in a bag and dispose in garbage or bury deeply away from the field.",
+      "step_2": "Copper-based spray: dissolve 1 tablespoon of copper sulphate (blue stone / blue vitriol, available at most agro stores) in 5 litres of water. Spray on remaining healthy and mildly affected plants every 5–7 days.",
+      "step_3": "Reduce humidity around plants — remove any weeds, improve spacing, and ensure good airflow.",
+      "step_4": "Do NOT water from overhead. Water only at the plant base in the morning.",
+      "source": "IITA Extension Guidance; UC IPM Statewide Program; FAO Plant Protection Guidelines"
+    },
+    "chemical_treatment": {
+      "product_name": "Ridomil Gold MZ 68 WG (or similar metalaxyl + mancozeb combination)",
+      "common_brand_in_nigeria": "Ridomil Gold, Gavel",
+      "active_ingredient": "Metalaxyl-M 4% + Mancozeb 64%",
+      "dosage": "25 grams per 15-litre knapsack sprayer",
+      "application": "Spray on all plant surfaces at first sign of disease. Ensure coverage of leaf undersides.",
+      "frequency": "Every 7 days during active outbreak. Reduce to every 10–14 days as preventive measure.",
+      "availability": "Available at major agro-allied stores and NAFDAC-registered dealers in urban centres",
+      "phe_warning": "Wear rubber gloves, face mask, and protective clothing. Do not spray in wind. Keep away from water sources. Pre-harvest interval: 7 days minimum.",
+      "source": "Nigerian Federal Ministry of Agriculture; NAFDAC-registered product class."
+    },
+    "prevention": [
+      "Plant only certified disease-free seedlings",
+      "Plant in well-drained soil — waterlogged conditions accelerate late blight",
+      "Avoid overhead irrigation at all times",
+      "Scout fields twice weekly during rainy season — early detection is critical",
+      "Destroy all volunteer tomato or potato plants near the field as they can carry the pathogen"
+    ],
+    "when_to_seek_extension_officer": "Late blight can destroy an entire field within 1–2 weeks. If you see rapid collapse of plants across multiple rows, contact your extension officer the same day."
+  },
+
+  "tomato_leaf_miner": {
+    "id": "tomato_leaf_miner",
+    "crop": "tomato",
+    "disease_name": "Tomato leaf miner",
+    "local_name": "White squiggly lines on tomato leaves",
+    "pathogen": "Tuta absoluta (South American tomato moth)",
+    "type": "pest — insect larvae",
+    "vision_confidence_threshold": 0.70,
+    "visual_markers": [
+      "Pale white or silvery winding tunnels (mines) inside leaf tissue",
+      "Tunnels are irregular and squiggly — visible when leaf is held to light",
+      "Small blister-like blisters or blisters on leaf surface",
+      "Tiny dark specks (frass/droppings) visible inside tunnels",
+      "Leaves dry out and die from the damaged areas outward",
+      "Fruit may show irregular surface damage or entry holes near the calyx"
+    ],
+    "severity": {
+      "mild": "Occasional tunnels on a few lower leaves; plant growth unaffected",
+      "moderate": "Tunnels on 20–40% of leaves; some premature leaf drop",
+      "severe": "Heavy tunnelling across the canopy; fruit damage visible; significant yield loss"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy all heavily mined leaves. Check and remove any small cream-coloured larvae visible inside the tunnels.",
+      "step_2": "Neem spray: crush or grind 200 grams of neem seeds (or use 5ml of commercial neem oil) into 1 litre of water. Strain through cloth, add 1 teaspoon of soap. Spray every 5 days, especially on undersides of leaves.",
+      "step_3": "Install yellow sticky traps above the crop canopy to catch adult moths (available at some agro stores; can also be made with yellow cardboard coated in grease).",
+      "step_4": "Intercrop tomatoes with basil or marigold where possible — these repel the adult moths.",
+      "source": "FAO — Tuta absoluta Management in Sub-Saharan Africa; IITA IPM guidance"
+    },
+    "chemical_treatment": {
+      "product_name": "Emamectin benzoate 5 SG",
+      "common_brand_in_nigeria": "Proclaim, Denim",
+      "active_ingredient": "Emamectin benzoate 5%",
+      "dosage": "4 grams per 15-litre knapsack sprayer",
+      "application": "Spray directly into the plant canopy, covering both leaf surfaces. Apply in the evening when moths are active.",
+      "frequency": "Every 7 days for 3 applications, then monitor",
+      "availability": "Available at agro-allied stores in most Nigerian states",
+      "phe_warning": "Wear gloves and mask during application. Pre-harvest interval: 3 days. Rotate with different insecticide classes to prevent resistance.",
+      "source": "NAFDAC-registered product class. FAO recommendations for Tuta absoluta in West Africa."
+    },
+    "prevention": [
+      "Use fine mesh (50 mesh) on greenhouse/screen house openings to exclude adult moths",
+      "Remove crop residues promptly after final harvest — pupae overwinter in debris",
+      "Avoid planting tomatoes near other solanaceous crops (pepper, potato, eggplant) to reduce pest movement",
+      "Inspect transplants carefully before planting — leaf miner can arrive on infected seedlings"
+    ],
+    "when_to_seek_extension_officer": "If fruit damage is visible or more than 30% of leaves are heavily mined, contact your extension officer for an integrated spray programme."
+  },
+
+  "cassava_mosaic_disease": {
+    "id": "cassava_mosaic_disease",
+    "crop": "cassava",
+    "disease_name": "Cassava mosaic disease (CMD)",
+    "local_name": "Cassava mosaic / yellow leaf curl",
+    "pathogen": "African cassava mosaic virus (ACMV) and/or East African cassava mosaic virus (EACMV) — transmitted by whitefly (Bemisia tabaci)",
+    "type": "viral",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Mosaic pattern of yellow/light green and dark green patches on leaves",
+      "Leaflets are distorted, twisted, or crinkled — reduced in size",
+      "Leaves curl inward or downward",
+      "Yellowing or pale mottling between the leaf veins (chlorosis)",
+      "Stunted overall plant growth compared to healthy plants nearby",
+      "New shoots at the top of the plant show symptoms most clearly"
+    ],
+    "severity": {
+      "mild": "Mosaic pattern on a few leaves; plant growth roughly normal; early in the season",
+      "moderate": "Multiple shoots affected; clear stunting; leaflet distortion on majority of plant",
+      "severe": "Whole plant severely stunted; near-total chlorosis; negligible root development expected"
+    },
+    "critical_note": "There is NO chemical cure for cassava mosaic disease. The virus is already inside the plant's cells. Chemical sprays will NOT remove the virus. The only proven management is: (1) stop the spread to other plants, and (2) replant with resistant varieties.",
+    "organic_treatment": {
+      "step_1": "ROGUE immediately: Uproot and destroy (burn or bury) all severely infected plants before the whitefly population increases. Do not leave infected plants standing — they are a source of virus for the rest of the field.",
+      "step_2": "Control the whitefly vector: spray a neem oil solution (5ml neem oil per 1 litre of water plus a few drops of soap) on all remaining plants every 7 days, focusing on the underside of leaves where whiteflies feed and breed.",
+      "step_3": "Inspect your stem cuttings before planting. Only take cuttings from visibly healthy plants with no mosaic symptoms. Infected cuttings are the single biggest source of CMD spread between farms.",
+      "step_4": "Maintain good field hygiene — remove weeds that can host whitefly populations between seasons.",
+      "source": "IITA Disease Control in Cassava Farms — IPM Field Guide for Extension Agents (NRCRI Umudike); Ogbe et al. (2003) IITA Nigeria"
+    },
+    "chemical_treatment": {
+      "note": "No chemical kills the CMD virus inside the plant. Insecticide use is only for reducing whitefly vector populations to slow further spread.",
+      "product_name": "Lambda-cyhalothrin 5 EC (for whitefly control)",
+      "common_brand_in_nigeria": "Karate 5 EC, Loyalty, Cyclone",
+      "active_ingredient": "Lambda-cyhalothrin 5%",
+      "dosage": "10ml per 15-litre knapsack sprayer",
+      "application": "Spray on undersides of leaves where whiteflies cluster. Focus on young shoots and growing tips.",
+      "frequency": "Every 14 days for vector control. Do not spray excessively — overuse accelerates whitefly resistance.",
+      "availability": "Widely available at agro-allied stores nationwide",
+      "phe_warning": "Wear gloves, mask, and long sleeves. Do not spray near water bodies or beehives. Keep livestock away for 48 hours.",
+      "source": "NAFDAC-registered product class. IITA-Ibadan research station guidance."
+    },
+    "resistant_varieties": {
+      "recommended": "Plant IITA-bred CMD-resistant varieties: TMS 30572, TMS 30001, TMS 91934, or any variety with 'TME' (Tropical Manihot esculenta) designation from your state's ADP (Agricultural Development Programme) office.",
+      "where_to_obtain": "Contact your state ADP office, NRCRI Umudike, or IITA Ibadan for certified clean planting material.",
+      "note": "Resistant varieties are the single most effective long-term solution for CMD. If CMD pressure is high on your farm, plan to replace susceptible varieties at the next planting season."
+    },
+    "prevention": [
+      "NEVER use stem cuttings from plants showing mosaic or distorted leaves — this is the primary route of farm-to-farm spread",
+      "Source planting material from certified clean nurseries or IITA/ADP distribution points",
+      "Plant resistant varieties (TME series, TMS 30572, TMS 30001)",
+      "Rogue out infected plants within the first 4 weeks of planting before whitefly populations peak",
+      "Maintain a weed-free zone around the field perimeter to reduce whitefly habitat"
+    ],
+    "when_to_seek_extension_officer": "If more than 20% of plants show CMD symptoms, contact your state ADP extension officer immediately — mass roguing and replanting with resistant varieties may be required to save the season."
+  },
+
+  "cassava_bacterial_blight": {
+    "id": "cassava_bacterial_blight",
+    "crop": "cassava",
+    "disease_name": "Cassava bacterial blight (CBB)",
+    "local_name": "Cassava leaf burn / angular leaf spots",
+    "pathogen": "Xanthomonas axonopodis pv. manihotis",
+    "type": "bacterial",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Angular (square or rectangular) water-soaked spots on leaves, often bounded by leaf veins",
+      "Spots turn brown to black and dry out, giving leaves a scorched appearance",
+      "Wilting of young leaves and shoot tips — called 'die-back'",
+      "Sticky yellow-brown ooze (bacterial exudate) may be visible on stem cuts or lesion surfaces in humid weather",
+      "Stem cankers: dark, sunken, elongated lesions on stems",
+      "Entire shoots may wilt and die (systemic infection)"
+    ],
+    "severity": {
+      "mild": "Angular spots on a few leaves; no stem symptoms; localised to 1–2 shoots",
+      "moderate": "Multiple branches showing leaf scorch and wilting; some stem cankers",
+      "severe": "Systemic wilting of multiple shoots; stem cankers throughout; potential plant death"
+    },
+    "organic_treatment": {
+      "step_1": "Prune and remove all visibly infected shoots, cutting at least 30cm below the lowest visible symptom. Burn all pruned material — do not compost.",
+      "step_2": "Disinfect pruning tools between plants by dipping in a solution of 10% bleach (1 part household bleach to 9 parts water) or used engine oil. This step is critical to prevent spreading the bacteria between plants.",
+      "step_3": "Copper-based spray: apply copper oxychloride (50% WP) at 30 grams per 15-litre knapsack sprayer to protect remaining healthy tissue. Spray every 10–14 days during the wet season.",
+      "step_4": "Avoid working in the field when plants are wet — the bacteria spread rapidly through water splash and contaminated hands.",
+      "source": "IITA Disease Control in Cassava Farms — IPM Field Guide for Extension Agents; NRCRI Umudike"
+    },
+    "chemical_treatment": {
+      "product_name": "Copper oxychloride 50% WP",
+      "common_brand_in_nigeria": "Cobox, Cuprofix, Funguran",
+      "active_ingredient": "Copper oxychloride 50%",
+      "dosage": "30 grams per 15-litre knapsack sprayer",
+      "application": "Thorough coverage of all leaf surfaces and stems. Apply as protective spray before symptoms appear during wet season.",
+      "frequency": "Every 10–14 days during rainy season; reduce to monthly in dry season",
+      "availability": "Available at agro-allied stores, often sold alongside other fungicides",
+      "phe_warning": "Avoid inhaling the powder during mixing. Wear gloves and mask. Copper compounds are toxic to fish — do not spray near streams or ponds.",
+      "source": "NAFDAC-registered product class. Nigerian crop protection guidelines."
+    },
+    "prevention": [
+      "Use only healthy, symptom-free stem cuttings for planting",
+      "Dip stem cuttings in copper oxychloride solution (20g per 10 litres of water) for 5 minutes before planting as prophylactic treatment",
+      "Practice crop rotation — avoid planting cassava in the same plot for consecutive seasons if CBB was present",
+      "Avoid tools and equipment moving between infected and healthy fields without disinfection",
+      "Plant early in the dry season where possible to avoid the peak bacterial spread period"
+    ],
+    "when_to_seek_extension_officer": "Systemic wilting (multiple stems collapsing) suggests the infection has entered the vascular system. Contact your extension officer as the plant may need to be destroyed to prevent spread."
+  },
+
+  "maize_fall_armyworm": {
+    "id": "maize_fall_armyworm",
+    "crop": "maize",
+    "disease_name": "Fall armyworm infestation",
+    "local_name": "Maize whorl worm / corn caterpillar",
+    "pathogen": "Spodoptera frugiperda (invasive moth larva — first detected in Nigeria 2016)",
+    "type": "pest — insect larvae",
+    "vision_confidence_threshold": 0.70,
+    "visual_markers": [
+      "Irregular holes and ragged edges on leaves — especially young leaves in the centre whorl",
+      "Large amounts of fine powdery sawdust-like frass (excrement) in and around the whorl",
+      "Larvae visible in the whorl: pale green to dark brown caterpillars, 2–4cm long, with a distinctive inverted Y-shape on the head",
+      "Four square black dots arranged in a square pattern on the second-to-last body segment of the larva",
+      "Window paning — translucent patches on leaves where surface tissue has been eaten but not perforated",
+      "Dead heart: central leaf whorl turns yellow and dies in severely infested young plants"
+    ],
+    "severity": {
+      "mild": "Leaf feeding damage on fewer than 20% of plants; larvae small (1cm); no dead heart",
+      "moderate": "Frass visible in 30–50% of plant whorls; some dead heart; larvae 2–3cm",
+      "severe": "More than 50% plants infested; multiple dead hearts; larvae large (3–4cm+); ear damage visible"
+    },
+    "organic_treatment": {
+      "step_1": "EARLY ACTION IS CRITICAL — fall armyworm is far harder to control once larvae grow large and burrow into the whorl. Start treatment at first sign of frass.",
+      "step_2": "Sand or ash application: pour dry sand, wood ash, or fine dry soil directly into the plant whorl (the funnel formed by the young leaves). This physically abrades and dehydrates small larvae. Apply every 3–4 days.",
+      "step_3": "Neem spray: prepare 5ml of neem oil in 1 litre of water with a few drops of liquid soap. Pour or spray directly into the whorl of each affected plant, reaching the larvae. Apply every 5–7 days in the early morning or evening.",
+      "step_4": "Hand picking: on small farms, manually remove visible larvae from whorls and destroy them (drop in soapy water or crush).",
+      "step_5": "Encourage natural enemies: avoid broad-spectrum sprays that kill parasitic wasps and predators that help control FAW naturally.",
+      "source": "IITA TAAT Maize Compact — FAW Enabler Programme; PMC (2018) IITA Cotonou Station study, Mokwa Nigeria; PMC (2020) Neem efficacy trials, Ghana West Africa"
+    },
+    "chemical_treatment": {
+      "product_name": "Emamectin benzoate 5 SG (preferred) or Lambda-cyhalothrin 5 EC (widely available fallback)",
+      "option_1": {
+        "product": "Emamectin benzoate 5 SG",
+        "common_brand_in_nigeria": "Proclaim 5 SG, Denim",
+        "dosage": "4 grams per 15-litre knapsack sprayer",
+        "note": "Most effective against FAW larvae. Lower environmental impact than pyrethroids."
+      },
+      "option_2": {
+        "product": "Lambda-cyhalothrin 5 EC",
+        "common_brand_in_nigeria": "Karate 5 EC, Loyalty",
+        "dosage": "10ml per 15-litre knapsack sprayer",
+        "note": "Widely available and effective. Use only if emamectin benzoate is unavailable."
+      },
+      "application": "Direct spray into the plant whorl — this is essential. Spraying only on the leaf surfaces is ineffective because the larvae hide inside the whorl. Apply in the early morning or late evening when larvae are active.",
+      "frequency": "Every 7–10 days for 2–3 applications. Begin at first detection.",
+      "timing_critical": "Applications at 2, 4, and 6 weeks after planting are most effective for early season protection (as per IITA Nigeria research).",
+      "availability": "Both products available at agro-allied stores in major towns across all Nigerian states",
+      "phe_warning": "Wear long sleeves, gloves, and mask during application. Do not spray in wind. Keep children away. Lambda-cyhalothrin is toxic to bees — do not spray on flowering crops or near beehives. Pre-harvest interval: 7 days.",
+      "source": "Tandfonline (2022) — FAW insecticide efficacy research in Nigeria; IITA TAAT Maize Compact; PMC (2018) IITA Cotonou Station Mokwa Nigeria study."
+    },
+    "prevention": [
+      "Plant early in the season — crops planted at the onset of rains tend to escape peak FAW infestation periods",
+      "Scout fields twice per week from germination — check the whorl of young plants for frass",
+      "Use push-pull intercropping if land allows: plant Brachiaria grass on field borders and Desmodium between maize rows — proven to reduce FAW damage in East/West Africa",
+      "Apply sand or ash into the whorl as a standard preventive measure at 2 and 4 weeks after planting before larvae are even detected",
+      "Remove and burn maize crop residues after harvest — pupae overwinter in debris and soil"
+    ],
+    "when_to_seek_extension_officer": "If more than 50% of plants show dead heart or you see larvae on the developing ear/cob, contact your state ADP extension officer. Severe infestations may qualify for emergency pest response support."
+  },
+
+  "maize_northern_leaf_blight": {
+    "id": "maize_northern_leaf_blight",
+    "crop": "maize",
+    "disease_name": "Northern corn leaf blight (NCLB)",
+    "local_name": "Maize grey leaf streak / long grey leaf spots",
+    "pathogen": "Exserohilum turcicum (syn. Helminthosporium turcicum)",
+    "type": "fungal",
+    "vision_confidence_threshold": 0.65,
+    "visual_markers": [
+      "Long, elliptical (cigar-shaped) lesions on leaves — 2.5cm to 15cm in length",
+      "Lesions are grey-green at first, turning tan/straw-coloured as they age",
+      "Lesions have distinct, pale-coloured centres with darker, wavy edges",
+      "Dark olive-green to black spores visible in the centre of older lesions in humid conditions",
+      "Lesions can coalesce to kill large sections of the leaf",
+      "Starts on lower leaves and progresses upward — upper leaves (including leaf above ear) most critical"
+    ],
+    "severity": {
+      "mild": "Lesions on lower 2–3 leaves only; less than 25% leaf area affected",
+      "moderate": "Lesions on leaves up to ear level; 25–50% leaf area affected",
+      "severe": "Lesions above the ear leaf; greater than 50% leaf area affected; early die-back"
+    },
+    "organic_treatment": {
+      "step_1": "Remove and destroy heavily infected lower leaves early in the season to reduce spore load. Do not compost.",
+      "step_2": "Ensure adequate spacing between plants (75cm between rows, 25–30cm within row) to maximise airflow and reduce leaf wetness periods.",
+      "step_3": "Avoid over-application of nitrogen fertiliser — lush, dense canopies increase humidity and disease risk.",
+      "step_4": "Copper-based spray: copper oxychloride 50% WP at 30 grams per 15-litre sprayer can provide some protective effect if applied early.",
+      "source": "IITA Maize Production Guidelines for Nigeria; Nigerian Federal Ministry of Agriculture"
+    },
+    "chemical_treatment": {
+      "product_name": "Mancozeb 80% WP or propiconazole 25% EC",
+      "option_1": {
+        "product": "Mancozeb 80% WP",
+        "common_brand_in_nigeria": "Dithane M-45, Penncozeb",
+        "dosage": "25 grams per 15-litre knapsack sprayer",
+        "note": "Protectant fungicide — most effective before or at first signs of disease"
+      },
+      "option_2": {
+        "product": "Propiconazole 25% EC",
+        "common_brand_in_nigeria": "Tilt 250 EC, Bumper",
+        "dosage": "10ml per 15-litre knapsack sprayer",
+        "note": "Systemic fungicide — can help after symptoms appear; more expensive"
+      },
+      "application": "Thorough coverage of all leaf surfaces. Critical window: apply before or at tasselling stage for maximum protection of the ear leaf and above.",
+      "frequency": "Every 14 days from first detection or as preventive measure during periods of prolonged humidity",
+      "availability": "Mancozeb widely available; propiconazole available at larger agro-dealers",
+      "phe_warning": "Wear gloves and mask during mixing. Observe 14-day pre-harvest interval for propiconazole.",
+      "source": "NAFDAC-registered products. IITA maize disease management recommendations for Nigeria."
+    },
+    "prevention": [
+      "Plant IITA-recommended varieties with NCLB tolerance where available — ask your agro-dealer",
+      "Rotate maize with legumes (cowpea, soybean) — reduces fungal inoculum in soil",
+      "Avoid planting in the same field for more than 2 consecutive seasons without rotation",
+      "Apply balanced NPK fertiliser — stressed plants are far more susceptible",
+      "Plant in rows running with prevailing wind direction to maximise canopy airflow"
+    ],
+    "when_to_seek_extension_officer": "If more than 50% leaf area above the ear is affected before grain fill is complete, yield loss will be significant. Contact your extension officer to assess whether the field is worth continued input investment."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Terra VI — Crop Disease Diagnostics",
+  "short_name": "Terra VI",
+  "description": "AI-powered crop disease diagnostics for Nigerian smallholder farmers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0a06",
+  "theme_color": "#34782b",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "categories": ["agriculture", "utilities"],
+  "lang": "en-NG"
+}
